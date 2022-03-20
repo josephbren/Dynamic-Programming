@@ -1,11 +1,9 @@
-// CalculateFibNumber.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// CalculateFib.cpp : Defines the functions for the static library.
 //
 
-#include <iostream>
-#include <unordered_map>
-
-using namespace std;
-typedef long long ll;	// fib numbers can get quite large
+#include "pch.h"
+#include "framework.h"
+#include "CalculateFibonacci.h"
 
 
 /*
@@ -29,12 +27,3 @@ ll CalculateFibonacci(int n, unordered_map<int, ll>& fibMemo)
 
 	return fibMemo[n];
 }
-
-
-int main()
-{
-	unordered_map<int, ll> fibMemo;
-
-	cout << "The 50th fib number is: " << CalculateFibonacci(50, fibMemo);
-}
-
