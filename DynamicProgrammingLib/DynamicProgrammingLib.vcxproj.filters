@@ -27,6 +27,9 @@
     <ClInclude Include="GridTraveler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CanSum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GridTraveler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CanSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

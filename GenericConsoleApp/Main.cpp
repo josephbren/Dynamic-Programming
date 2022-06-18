@@ -4,17 +4,21 @@
 #include <iostream>
 #include "CalculateFibonacci.h"
 #include "GridTraveler.h"
+#include "CanSum.h"
 
 
 int main()
 {
+	// Calculate Fib
 	unordered_map<int, ll> fibMemo;
 	cout << "The 50th fib number is: " << Fib(50, fibMemo) << endl;
 
+	// Grid Traveler
 	std::map<std::pair<int, int>, ll> memo;
-	int m = 0, n = 0;
+	cout << "The answer is: " << gridTraveler(5, 3, memo) << endl;
 
-	cout << "Enter m & n (i.e. 5 3): " << endl;
-	cin >> m >> n;
-	cout << "The answer is: " << gridTraveler(m, n, memo) << endl;
+	// Can Sum
+	int input[] = {1, 4};
+	std::unordered_map<int, bool> canSumMemo;
+	cout << "The canSum result is: " << canSum(7, input, canSumMemo);
 }

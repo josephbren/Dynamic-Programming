@@ -88,12 +88,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CalculateFibonacci.h" />
+    <ClInclude Include="CanSum.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="GridTraveler.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CalculateFibonacci.cpp" />
+    <ClCompile Include="CanSum.cpp" />
     <ClCompile Include="GridTraveler.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
