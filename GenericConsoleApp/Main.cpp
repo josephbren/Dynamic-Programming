@@ -9,5 +9,5 @@ int main()
 {
 	unordered_map<int, ll> fibMemo;
 
-	cout << "The 50th fib number is: " << CalculateFibonacci(50, fibMemo);
+	cout << "The 50th fib number is: " << Fib(50, fibMemo);
 }
