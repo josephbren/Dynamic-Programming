@@ -24,6 +24,8 @@
 
 /*
 	Brute force solution - no memoization
+	Time complexity - O(2^(n + m))
+	Space complexity - O(n + m)
 */
 int gridTraveler(int m, int n)
 {
@@ -36,6 +38,8 @@ int gridTraveler(int m, int n)
 
 /*
 	Optimized (and overloaded) memoization solution to problem
+	Time complexity - O(n * m)
+	Space complexity - O(n + m)
 */
 ll gridTraveler(int m, int n, std::map<std::pair<int, int>, ll>& memo)
 {
