@@ -15,10 +15,10 @@ int main()
 
 	// Grid Traveler
 	std::map<std::pair<int, int>, ll> memo;
-	cout << "The answer is: " << gridTraveler(5, 3, memo) << endl;
+	cout << "The gridTraveler result of 5,3 is: " << gridTraveler(5, 3, memo) << endl;
 
 	// Can Sum
 	int input[] = {1, 4};
 	std::unordered_map<int, bool> canSumMemo;
-	cout << "The canSum result is: " << canSum(7, input, canSumMemo);
+	cout << "The canSum result of target 7 is: " << canSum(7, input, canSumMemo);
 }
