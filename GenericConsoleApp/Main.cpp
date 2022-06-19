@@ -5,6 +5,7 @@
 #include "CalculateFibonacci.h"
 #include "GridTraveler.h"
 #include "CanSum.h"
+#include "HowSum.h"
 
 
 int main()
@@ -20,5 +21,9 @@ int main()
 	// Can Sum
 	int input[] = {1, 4};
 	std::unordered_map<int, bool> canSumMemo;
-	cout << "The canSum result of target 7 is: " << canSum(7, input, canSumMemo);
+	cout << "The canSum result of target 7 is: " << canSum(7, input, canSumMemo) << endl;
+
+	int inputHowSum[] = {1, 5};
+	vector<int> values;
+	cout << "The howSum result of target 7 is: " << howSum(7, inputHowSum, values) << endl;
 }
